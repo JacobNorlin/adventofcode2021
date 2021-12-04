@@ -1,7 +1,7 @@
 use crate::utils::read_file_vec;
 
 pub fn main() {
-    let lines = read_file_vec("./inputs/day3.txt");
+    let lines = read_file_vec("./inputs/day3.txt", "\n");
     let m: Vec<Vec<char>> = lines.iter().map(|x| x.chars().collect()).collect();
 
     part1(&m);

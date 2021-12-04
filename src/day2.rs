@@ -1,7 +1,7 @@
 use crate::utils::read_file_vec;
 
 pub fn main() {
-    let lines = read_file_vec("./inputs/day2.txt");
+    let lines = read_file_vec("./inputs/day2.txt", "\n");
     part1(&lines);
     part2(&lines);
 }
