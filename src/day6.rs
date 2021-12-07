@@ -7,8 +7,8 @@ pub fn main() {
         .map(|v| v.parse::<i64>().unwrap())
         .collect::<Vec<i64>>();
 
-    println!("day6 part1: {}", number_of_fish(&nums, 80));
-    println!("day6 part2: {}", number_of_fish(&nums, 256));
+    println!("day6 part 1: {}", number_of_fish(&nums, 80));
+    println!("day6 part 2: {}", number_of_fish(&nums, 256));
 }
 
 fn number_of_fish(nums: &Vec<i64>, num_iters: i32) -> i64 {
